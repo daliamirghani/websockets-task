@@ -1,6 +1,5 @@
 import { OnModuleInit, UnauthorizedException, UseGuards } from "@nestjs/common";
 import { MessageBody, SubscribeMessage, WebSocketGateway, WebSocketServer , ConnectedSocket } from "@nestjs/websockets";
-import { Client } from "node_modules/socket.io/dist/client";
 import {Server, Socket} from "socket.io"
 import { WsJwtAuthGuard } from "src/auth/jwt/jwt.guard";
 
