@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "username": "new",
+    "password": "$2b$10$glOAfxHBZtj2.4IfGpcd1eN4i0ZJLZ1yyLL2i4RQ7F8CtCs7Jhfk.",
+    "role": "student",
+    "email": "hi"
+  },
+  {
+    "username": "admin",
+    "password": "$2b$10$JUPomBFWivB3EJ5f31k..eJULu4VirhUX7XtjmXBJcMFmJz7F3GfK",
+    "role": "admin",
+    "email": "@@gmail.com"
+  }
+]

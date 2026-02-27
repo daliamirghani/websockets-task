@@ -23,6 +23,9 @@ export class AuthService {
     fs.writeFileSync(
     path.join(process.cwd(), 'data', 'users.json'),
     JSON.stringify(users, null, 2),'utf-8');
+    console.log("USER:", user);
+    console.log("ROLE:", user?.role);
+
     console.log("user created successfully");
   }
 
